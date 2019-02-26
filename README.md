@@ -36,12 +36,12 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 * ` static` - 定义一个`static` 的值变量
 
 ## Swift 
-* `gls`-展开`guard let self = self else { return }`
-* `didSet`-展开`didSet { }`
-* `didSetModel`-给 view 绑定 model
-* `extension`-展开`extension { }`
-* `viewDidLayoutSubviews`-展开`viewDidLayoutSubviews:` 方法
-* `Mark`-展开一个 mark 
+* `gls` - 展开`guard let self = self else { return }`
+* `didSet` - 展开`didSet { }`
+* `didSetModel` - 给 `view` 绑定 `model`
+* `extension` - 展开`extension { }`
+* `viewDidLayoutSubviews` - 展开`viewDidLayoutSubviews:` 方法
+* `Mark` - 展开一个 mark 
 
 ## RxSwift
-* `RxBinder`-展开 `Reactive extension`
+* `RxBinder` - 展开 `Reactive extension`
