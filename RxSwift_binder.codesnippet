@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>RxBinder</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// MARK: - Reactive-Extension
+extension Reactive where Base: &lt;#class#&gt; {
+    
+    var &lt;#name#&gt;: Binder&lt;&lt;#type#&gt;&gt; {
+        
+        return Binder(base) { target, value in
+            
+            &lt;#code#&gt;
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DC3F6CCF-2B5D-4A17-BDB1-A95B22F38289</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>RxSwift Binder</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
