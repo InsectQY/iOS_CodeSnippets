@@ -4,7 +4,9 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 
 ```
 ~/Library/Developer/Xcode/UserData/CodeSnippets
-```# 快捷键汇总
+```
+
+# 快捷键汇总
 ## Objective-C
 ### NSObject
 * `pa` - 定义一个 `assign` 的 property
