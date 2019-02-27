@@ -4,8 +4,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 
 ```
 ~/Library/Developer/Xcode/UserData/CodeSnippets
-```
-# 快捷键汇总
+```# 快捷键汇总
 ## Objective-C
 ### NSObject
 * `pa` - 定义一个 `assign` 的 property
@@ -31,17 +30,19 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 ### Other
 * `weakSelf` - 定义一个 `weak` 的 `self` 指针
 * `strongSelf` - 将 `weakSelf` 指针改为 `strong` 的 `self` 指针
-* `Mark` - 展开一个 mark 
+* `Mark` - 展开一个 mark
 * `static reference` - 定义一个 `static` 的指针
-* ` static` - 定义一个`static` 的值变量
+* `static` - 定义一个`static` 的值变量
 
-## Swift 
+## Swift
 * `gls` - 展开`guard let self = self else { return }`
 * `didSet` - 展开`didSet { }`
 * `didSetModel` - 给 `view` 绑定 `model`
 * `extension` - 展开`extension { }`
 * `viewDidLayoutSubviews` - 展开`viewDidLayoutSubviews:` 方法
-* `Mark` - 展开一个 mark 
+* `Mark` - 展开一个 mark
 
 ## RxSwift
 * `RxBinder` - 展开 `Reactive extension`
+* `RxBehaviorRelay` - 定义一个 `BehaviorRelay`
+* `RxDriver` - 定义一个 `Driver`
