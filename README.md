@@ -25,6 +25,7 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 ### Method & Function
 * `fnv` - 定义一个返回值为 `void` 的方法
 * `fnv:` - 定义一个返回值为 `void` 且带参数的方法
+* `Lazyload` - 定义一个懒加载方法
 
 ### UIViewController
 * `viewDidLayoutSubviews` - 展开 `viewDidLayoutSubviews:` 方法
