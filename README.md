@@ -44,6 +44,10 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 * `extension` - 展开`extension { }`
 * `viewDidLayoutSubviews` - 展开`viewDidLayoutSubviews:` 方法
 * `Mark` - 展开一个 mark
+* `TableViewDataSource` - 展开 tableView 数据源
+* `TableViewDelegate` - 展开 tableView 代理
+* `CollectionViewDataSource` - 展开 collectionView 数据源
+* `CollectionViewDelegate` - 展开 collectionView 代理
 
 ## RxSwift
 * `RxBinder` - 展开 `Reactive extension`

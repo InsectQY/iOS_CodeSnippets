@@ -3,22 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>RxBehaviorRelay</string>
+	<string>TableViewDelegate</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>let &lt;#name#&gt; = BehaviorRelay&lt;&lt;#type#&gt;&gt;(value: &lt;#value#&gt;)</string>
+	<string>// MARK: - UITableViewDelegate
+extension &lt;#class#&gt;: UITableViewDelegate {
+
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        &lt;#code#&gt;
+    }
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>6E1E652C-88CA-4092-97B0-7440A0CD7D64</string>
+	<string>9218E985-237D-463C-8C09-0FFD0BF01EAC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetPlatformFamily</key>
+	<string>iphoneos</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>BehaviorRelay</string>
+	<string>UITableViewDelegate</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
