@@ -3,25 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>didSetModel</string>
+	<string>mark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>public var item: &lt;#type#&gt;? {
-        didSet {
-
-            guard let item = item else { return }
-            &lt;#code#&gt;
-        }
-    }</string>
+	<string>// MARK: - &lt;#content#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>F8C41BB7-882B-4CD6-B56A-B4DCCB29702C</string>
+	<string>CA2A174D-7287-4F7D-B1C4-D01E0C13679F</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
-	<string>didSet Model</string>
+	<string>Pragma Mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

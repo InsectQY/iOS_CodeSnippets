@@ -33,21 +33,21 @@ Xcode 的 Code Snippets 文件存放于 `~/Library/Developer/Xcode/UserData/Code
 ### Other
 * `weakSelf` - 定义一个 `weak` 的 `self` 指针
 * `strongSelf` - 将 `weakSelf` 指针改为 `strong` 的 `self` 指针
-* `Mark` - 展开一个 mark
+* `mark` - 展开一个 mark
 * `static reference` - 定义一个 `static` 的指针
 * `static` - 定义一个`static` 的值变量
 
 ## Swift
 * `gls` - 展开`guard let self = self else { return }`
-* `didSet` - 展开`didSet { }`
-* `didSetModel` - 给 `view` 绑定 `model`
+* `ds` - 展开`didSet { }`
+* `dsm` - 给 `view` 绑定 `model`
 * `extension` - 展开`extension { }`
 * `viewDidLayoutSubviews` - 展开`viewDidLayoutSubviews:` 方法
-* `Mark` - 展开一个 mark
-* `TableViewDataSource` - 展开 tableView 数据源
-* `TableViewDelegate` - 展开 tableView 代理
-* `CollectionViewDataSource` - 展开 collectionView 数据源
-* `CollectionViewDelegate` - 展开 collectionView 代理
+* `mark` - 展开一个 mark
+* `tvds` - 展开 tableView 数据源
+* `tvd` - 展开 tableView 代理
+* `cvds` - 展开 collectionView 数据源
+* `cvd` - 展开 collectionView 代理
 
 ## RxSwift
 * `RxBinder` - 展开 `Reactive extension`
